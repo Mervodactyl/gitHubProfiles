@@ -1,0 +1,64 @@
+body {
+  background-color: #E6E165;
+}
+
+input, button {
+  font-size: 30px;
+  padding: 10px;
+}
+
+input {
+  width: 510px;
+}
+
+.profile {
+  background: #BF0612; /* Old browsers */
+  background: -moz-linear-gradient(top,  #BF0612 0%, #E07F10 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BF0612), color-stop(100%,#E07F10)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #BF0612 0%,#E07F10 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #BF0612 0%,#E07F10 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #BF0612 0%,#E07F10 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #BF0612 0%,#E07F10 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BF0612', endColorstr='#E07F10',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  font-family: Helvetica Neue;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  overflow: none;
+}
+
+#wrapper {
+  width: 70%;
+  background-color: #E665E6;
+  margin: 0 auto 0 auto;
+}
+
+.profile a {
+  color: #fff;
+}
+
+.profile .pic {
+  width: 150px;
+  float: right;
+}
+
+.profile .statistics {
+  width: 10px;
+  float: left
+  padding: 0 20px;
+}
+
+.profile .statistics h3 {
+  margin-top: 0;
+}
+
+.profile .statistics strong {
+  margin-top: 10px;
+  font-size: 18px;
+  display: block;
+}
+.profile img {
+  width: 100%;
+}
