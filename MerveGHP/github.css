@@ -2,9 +2,14 @@ body {
   background-color: #E6E165;
 }
 
+#add-profile {
+  margin-left: 25px;
+}
+
 input, button {
   font-size: 30px;
   padding: 10px;
+  margin: 20px;
 }
 
 input {
@@ -27,12 +32,14 @@ input {
   color: #fff;
   margin-bottom: 20px;
   overflow: none;
+  boarder: 5px;
 }
 
 #wrapper {
   width: 70%;
   background-color: #E665E6;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  padding: 10px 10%;
 }
 
 .profile a {
